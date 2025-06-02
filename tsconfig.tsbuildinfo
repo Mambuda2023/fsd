@@ -1,0 +1,1 @@
+{"root":["./src/vite-env.d.ts","./src/app/app.tsx","./src/app/main.tsx","./src/app/router.tsx","./src/app/redux/store.ts","./src/shared/ui/button/button.props.ts","./src/shared/ui/button/button.stories.tsx","./src/shared/ui/button/button.test.tsx","./src/shared/ui/button/button.tsx","./src/shared/router/path-router.ts","./src/shared/services/api.ts"],"version":"5.8.3"}

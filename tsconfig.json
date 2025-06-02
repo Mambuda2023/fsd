@@ -1,0 +1,42 @@
+{
+  "include": [
+    "src"
+  ],
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "node",
+    "lib": [
+      "ES2015",
+      "DOM",
+      "DOM.Iterable"
+    ],
+    "types": [
+      "@testing-library/jest-dom",
+      "vite/client"
+    ],
+    "baseUrl": "src",
+    "paths": {
+      "@app/*": [
+        "app"
+      ],
+      "@pages/*": [
+        "pages/*"
+      ],
+      "@widgets/*": [
+        "widgets/*"
+      ],
+      "@features/*": [
+        "features/*"
+      ],
+      "@entities/*": [
+        "entities/*"
+      ],
+      "@shared/*": [
+        "shared/*"
+      ],
+    },
+    "jsx": "react-jsx",
+    "outDir": "./dist"
+  },
+}
