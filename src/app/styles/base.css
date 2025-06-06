@@ -1,0 +1,12 @@
+:root {
+	text-rendering: optimizelegibility;
+}
+
+body {
+	display: flex;
+	min-width: 320px;
+	min-height: 100vh;
+	margin: 0;
+	font-family: var(--font-family-button);
+	place-items: center;
+}

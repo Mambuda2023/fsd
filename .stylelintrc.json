@@ -4,7 +4,5 @@
 		"stylelint-config-property-sort-order-smacss"
 	],
 	"plugins": ["stylelint-order"],
-	"rules": {
-		"indentation": ["tab"]
-	}
+	"rules": {}
 }
