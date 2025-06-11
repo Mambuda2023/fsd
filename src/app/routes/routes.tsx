@@ -1,5 +1,6 @@
 import { Layout } from "@app/Layout/index";
-import { CategoryPage, MainPage } from "@pages/index";
+import { CategoryPage } from "@pages/Category";
+import { MainPage } from "@pages/Main";
 
 import { createBrowserRouter } from "react-router-dom";
 
